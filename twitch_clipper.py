@@ -16,10 +16,10 @@ from dotenv import load_dotenv
 
 # ===== CONFIGURATION =====
 load_dotenv()
-TWITCH_CLIENT_ID = os.getenv("xmwoztxm7o1l70jsv71qgd6sath1a0")
-TWITCH_OAUTH_TOKEN = os.getenv("w855tu8wgfa0hj6knng8du7utw5vix")
-OPENAI_API_KEY = os.getenv("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")
-CHROME_DRIVER_PATH = os.getenv("C:\Users\Philip\Downloads\twitch-clipper\chromedriver.exe")
+TWITCH_CLIENT_ID = os.getenv("TWITCH_CLIENT_ID")
+TWITCH_OAUTH_TOKEN = os.getenv("TWITCH_OAUTH_TOKEN")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+CHROME_DRIVER_PATH = os.getenv("CHROME_DRIVER_PATH")
 TARGET_STREAMER = "Thetylilshow"  # Change to your target streamer
 
 # ===== DASHBOARD SETUP =====
